@@ -1,13 +1,15 @@
 import './App.css'
+import BannerImage from './Component/BannerImage'
+import Navbar from './Component/Navbar'
 
 function App() {
   
 
   return (
     <>
-      <div>
-        hllo world
-      </div>
+      <Navbar />
+
+      <BannerImage />
     </>
   )
 }
